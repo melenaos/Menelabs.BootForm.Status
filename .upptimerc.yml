@@ -1,0 +1,35 @@
+# Config for status.bootform.com - see docs/plans/16-launch-readiness-and-operations/16.02-per-component-health-circuit-breakers-and-status-page.md
+# in the main Menelabs.BootForm repo for the full design/reasoning.
+owner: melenaos
+repo: Menelabs.BootForm.Status
+
+# Grouped by customer-facing bucket, not by internal host/infra (see 16.02's Decisions) - each
+# endpoint is a small dedicated /status/* route that rolls up that bucket's own dependency health
+# checks + circuit breaker states into a plain 200/503, since Upptime monitors independent URLs
+# rather than splitting one JSON response into multiple rows.
+#
+# NOTE: these 4 endpoints don't exist yet (16.02 Steps 1-4, not yet built) - every site will show
+# as down until that backend work ships and is deployed. Expected, not a misconfiguration.
+sites:
+  - name: Form Submissions
+    url: https://f.bootform.com/status/submissions
+  - name: Dashboard
+    url: https://api.bootform.com/status/dashboard
+  - name: Notification Delivery
+    url: https://api.bootform.com/status/delivery
+  - name: AI / API Access
+    url: https://mcp.bootform.com/status/mcp
+
+status-website:
+  cname: status.bootform.com
+  logoUrl: https://bootform.com/favicon.svg
+  name: BootForm Status
+  introTitle: "**BootForm** system status"
+  introMessage: Real-time status for BootForm's form-submission, dashboard, notification-delivery, and API surfaces. Incident history is public - see this page's own [GitHub repository](https://github.com/melenaos/Menelabs.BootForm.Status).
+  navbar:
+    - title: Status
+      href: /
+    - title: BootForm
+      href: https://bootform.com
+    - title: GitHub
+      href: https://github.com/$OWNER/$REPO
