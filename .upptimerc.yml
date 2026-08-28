@@ -8,15 +8,18 @@ repo: Menelabs.BootForm.Status
 # checks + circuit breaker states into a plain 200/503, since Upptime monitors independent URLs
 # rather than splitting one JSON response into multiple rows.
 #
-# NOTE: these 4 endpoints don't exist yet (16.02 Steps 1-4, not yet built) - every site will show
-# as down until that backend work ships and is deployed. Expected, not a misconfiguration.
+# NOTE: 16.02 Steps 1-4 (the actual /status/* endpoints) are merged to main but not yet promoted to
+# production - every site will show as down until the promote-to-production.yml run happens. Expected,
+# not a misconfiguration. delivery.bootform.com is a new custom domain (added 2026-08-28, Cloudflare
+# CNAME to bootform-delivery-070426.azurewebsites.net, Proxied) - Delivery Workers had no clean
+# *.bootform.com domain before this; see azure-resources.md/links.md for the DNS record.
 sites:
   - name: Form Submissions
     url: https://f.bootform.com/status/submissions
   - name: Dashboard
     url: https://api.bootform.com/status/dashboard
   - name: Notification Delivery
-    url: https://api.bootform.com/status/delivery
+    url: https://delivery.bootform.com/status/delivery
   - name: AI / API Access
     url: https://mcp.bootform.com/status/mcp
 
