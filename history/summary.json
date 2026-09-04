@@ -4,19 +4,19 @@
     "url": "https://f.bootform.com/status/submissions",
     "icon": "https://icons.duckduckgo.com/ip3/f.bootform.com.ico",
     "slug": "form-submissions",
-    "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "99.96%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
-    "time": 1402,
-    "timeDay": 3251,
-    "timeWeek": 1402,
-    "timeMonth": 1402,
-    "timeYear": 1402,
+    "status": "up",
+    "uptime": "98.69%",
+    "uptimeDay": "90.78%",
+    "uptimeWeek": "98.68%",
+    "uptimeMonth": "98.69%",
+    "uptimeYear": "98.69%",
+    "time": 1382,
+    "timeDay": 2568,
+    "timeWeek": 1476,
+    "timeMonth": 1382,
+    "timeYear": 1382,
     "dailyMinutesDown": {
-      "2026-09-04": 1
+      "2026-09-04": 133
     }
   },
   {
@@ -32,7 +32,7 @@
     "uptimeYear": "100.00%",
     "time": 691,
     "timeDay": 439,
-    "timeWeek": 691,
+    "timeWeek": 735,
     "timeMonth": 691,
     "timeYear": 691,
     "dailyMinutesDown": {}
@@ -50,7 +50,7 @@
     "uptimeYear": "100.00%",
     "time": 634,
     "timeDay": 586,
-    "timeWeek": 634,
+    "timeWeek": 667,
     "timeMonth": 634,
     "timeYear": 634,
     "dailyMinutesDown": {}
@@ -68,7 +68,7 @@
     "uptimeYear": "100.00%",
     "time": 974,
     "timeDay": 513,
-    "timeWeek": 974,
+    "timeWeek": 1024,
     "timeMonth": 974,
     "timeYear": 974,
     "dailyMinutesDown": {}
