@@ -26,6 +26,12 @@ sites:
 status-website:
   cname: status.bootform.com
   logoUrl: https://bootform.com/favicon.svg
+  # Was previously unset, so the page fell back to Upptime's own stock icon
+  # (raw.githubusercontent.com/upptime/upptime/.../upptime-icon.svg) instead of BootForm's mark -
+  # confirmed live via `curl https://status.bootform.com/` 2026-09-14. No PNG favicon asset exists
+  # for bootform.com yet (checked /favicon.png, /favicon-192.png, /apple-touch-icon.png - all 404),
+  # so only the SVG variant is set; add `favicon:` here too if a PNG ever gets added.
+  faviconSvg: https://bootform.com/favicon.svg
   name: BootForm Status
   introTitle: "**BootForm** system status"
   introMessage: Real-time status for BootForm's form-submission, dashboard, notification-delivery, and API surfaces. Incident history is public - see this page's own [GitHub repository](https://github.com/melenaos/Menelabs.BootForm.Status).
@@ -36,3 +42,28 @@ status-website:
       href: https://bootform.com
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+  # Retints the site's active-nav-link underline and the (otherwise stock-blue, #3867d6) form
+  # buttons to BootForm's actual brand teal - see frontend/dashboard/src/style.css's --color-accent
+  # in the main Menelabs.BootForm repo, retinted from violet to teal 2026-07-19 (PR #88 logo
+  # redesign). Deliberately leaves --up-/--down-/--degraded-*-color and --tag-*-background-color
+  # alone (green/red/yellow, in both themes/light.css and themes/dark.css) - those are semantic
+  # status colors, not brand identity, and recoloring them to teal would make "down" harder to
+  # spot at a glance. The rest of both themes' palettes (background/card/border tints) already
+  # lean teal by default, close enough to brand that they're left as-is.
+  css: |
+    :root {
+      --nav-current-border-bottom-color: #0d9488;
+      --submit-button-background-color: #0d9488;
+      --submit-button-border-color: #0f766e;
+      --error-button-background-color: #0d9488;
+      --error-button-border-color: #0f766e;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --nav-current-border-bottom-color: #2dd4bf;
+        --submit-button-background-color: #2dd4bf;
+        --submit-button-border-color: #14b8a6;
+        --error-button-background-color: #2dd4bf;
+        --error-button-border-color: #14b8a6;
+      }
+    }
