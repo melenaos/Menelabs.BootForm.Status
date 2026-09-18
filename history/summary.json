@@ -4,17 +4,17 @@
     "url": "https://f.bootform.com/status/submissions",
     "icon": "https://icons.duckduckgo.com/ip3/f.bootform.com.ico",
     "slug": "form-submissions",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.94%",
+    "uptimeDay": "99.93%",
     "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1230,
-    "timeDay": 3942,
-    "timeWeek": 1336,
-    "timeMonth": 1230,
-    "timeYear": 1230,
+    "time": 1194,
+    "timeDay": 2715,
+    "timeWeek": 1229,
+    "timeMonth": 1194,
+    "timeYear": 1194,
     "dailyMinutesDown": {
       "2026-09-18": 1
     }
@@ -60,17 +60,19 @@
     "url": "https://mcp.bootform.com/status/mcp",
     "icon": "https://icons.duckduckgo.com/ip3/mcp.bootform.com.ico",
     "slug": "ai-api-access",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1345,
-    "timeDay": 3521,
-    "timeWeek": 1495,
-    "timeMonth": 1345,
-    "timeYear": 1345,
-    "dailyMinutesDown": {}
+    "time": 1328,
+    "timeDay": 2618,
+    "timeWeek": 1447,
+    "timeMonth": 1328,
+    "timeYear": 1328,
+    "dailyMinutesDown": {
+      "2026-09-18": 1
+    }
   }
 ]
