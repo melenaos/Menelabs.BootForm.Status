@@ -22,20 +22,18 @@
     "url": "https://api.bootform.com/status/dashboard",
     "icon": "https://icons.duckduckgo.com/ip3/api.bootform.com.ico",
     "slug": "dashboard",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "99.92%",
-    "uptimeWeek": "99.99%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1249,
-    "timeDay": 2901,
-    "timeWeek": 1486,
-    "timeMonth": 1249,
-    "timeYear": 1249,
-    "dailyMinutesDown": {
-      "2026-09-19": 1
-    }
+    "time": 1389,
+    "timeDay": 3350,
+    "timeWeek": 1802,
+    "timeMonth": 1389,
+    "timeYear": 1389,
+    "dailyMinutesDown": {}
   },
   {
     "name": "Notification Delivery",
