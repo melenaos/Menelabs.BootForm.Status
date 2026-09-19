@@ -6,18 +6,16 @@
     "slug": "form-submissions",
     "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.93%",
-    "uptimeWeek": "99.99%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1194,
-    "timeDay": 2715,
-    "timeWeek": 1229,
-    "timeMonth": 1194,
-    "timeYear": 1194,
-    "dailyMinutesDown": {
-      "2026-09-18": 1
-    }
+    "time": 1174,
+    "timeDay": 2845,
+    "timeWeek": 1209,
+    "timeMonth": 1174,
+    "timeYear": 1174,
+    "dailyMinutesDown": {}
   },
   {
     "name": "Dashboard",
@@ -30,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 918,
-    "timeDay": 295,
-    "timeWeek": 502,
-    "timeMonth": 918,
-    "timeYear": 918,
+    "time": 902,
+    "timeDay": 503,
+    "timeWeek": 479,
+    "timeMonth": 902,
+    "timeYear": 902,
     "dailyMinutesDown": {}
   },
   {
@@ -48,11 +46,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 561,
-    "timeDay": 421,
-    "timeWeek": 459,
-    "timeMonth": 561,
-    "timeYear": 561,
+    "time": 567,
+    "timeDay": 706,
+    "timeWeek": 458,
+    "timeMonth": 567,
+    "timeYear": 567,
     "dailyMinutesDown": {}
   },
   {
@@ -62,17 +60,15 @@
     "slug": "ai-api-access",
     "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.96%",
-    "uptimeWeek": "99.99%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1328,
-    "timeDay": 2618,
-    "timeWeek": 1447,
-    "timeMonth": 1328,
-    "timeYear": 1328,
-    "dailyMinutesDown": {
-      "2026-09-18": 1
-    }
+    "time": 1305,
+    "timeDay": 2685,
+    "timeWeek": 1401,
+    "timeMonth": 1305,
+    "timeYear": 1305,
+    "dailyMinutesDown": {}
   }
 ]
