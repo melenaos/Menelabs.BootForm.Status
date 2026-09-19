@@ -6,8 +6,8 @@
     "slug": "form-submissions",
     "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.93%",
-    "uptimeWeek": "99.99%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 1122,
@@ -15,9 +15,7 @@
     "timeWeek": 1075,
     "timeMonth": 1122,
     "timeYear": 1122,
-    "dailyMinutesDown": {
-      "2026-09-19": 1
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Dashboard",
@@ -26,8 +24,8 @@
     "slug": "dashboard",
     "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.96%",
-    "uptimeWeek": "99.99%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 1483,
@@ -35,9 +33,7 @@
     "timeWeek": 1924,
     "timeMonth": 1483,
     "timeYear": 1483,
-    "dailyMinutesDown": {
-      "2026-09-19": 1
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Notification Delivery",
@@ -62,17 +58,17 @@
     "url": "https://mcp.bootform.com/status/mcp",
     "icon": "https://icons.duckduckgo.com/ip3/mcp.bootform.com.ico",
     "slug": "ai-api-access",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1305,
-    "timeDay": 602,
-    "timeWeek": 1401,
-    "timeMonth": 1305,
-    "timeYear": 1305,
+    "time": 1545,
+    "timeDay": 4913,
+    "timeWeek": 1922,
+    "timeMonth": 1545,
+    "timeYear": 1545,
     "dailyMinutesDown": {}
   }
 ]
