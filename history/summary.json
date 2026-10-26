@@ -4,18 +4,20 @@
     "url": "https://f.bootform.com/status/submissions",
     "icon": "https://icons.duckduckgo.com/ip3/f.bootform.com.ico",
     "slug": "form-submissions",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1059,
-    "timeDay": 502,
-    "timeWeek": 975,
-    "timeMonth": 1128,
-    "timeYear": 1059,
-    "dailyMinutesDown": {}
+    "time": 1090,
+    "timeDay": 1821,
+    "timeWeek": 1246,
+    "timeMonth": 1193,
+    "timeYear": 1090,
+    "dailyMinutesDown": {
+      "2026-10-26": 0
+    }
   },
   {
     "name": "Dashboard",
