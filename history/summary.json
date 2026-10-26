@@ -58,20 +58,20 @@
     "url": "https://mcp.bootform.com/status/mcp",
     "icon": "https://icons.duckduckgo.com/ip3/mcp.bootform.com.ico",
     "slug": "ai-api-access",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1324,
-    "timeDay": 1857,
-    "timeWeek": 1185,
-    "timeMonth": 1147,
-    "timeYear": 1324,
+    "time": 1335,
+    "timeDay": 1961,
+    "timeWeek": 1294,
+    "timeMonth": 1175,
+    "timeYear": 1335,
     "dailyMinutesDown": {
       "2026-09-28": 0,
-      "2026-10-26": 0
+      "2026-10-26": 1
     }
   }
 ]
