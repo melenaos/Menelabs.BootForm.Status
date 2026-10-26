@@ -6,8 +6,8 @@
     "slug": "form-submissions",
     "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.94%",
-    "uptimeWeek": "99.99%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 1089,
@@ -15,9 +15,7 @@
     "timeWeek": 1226,
     "timeMonth": 1189,
     "timeYear": 1089,
-    "dailyMinutesDown": {
-      "2026-10-26": 1
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Dashboard",
@@ -60,19 +58,20 @@
     "url": "https://mcp.bootform.com/status/mcp",
     "icon": "https://icons.duckduckgo.com/ip3/mcp.bootform.com.ico",
     "slug": "ai-api-access",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1301,
-    "timeDay": 637,
-    "timeWeek": 915,
-    "timeMonth": 1090,
-    "timeYear": 1301,
+    "time": 1324,
+    "timeDay": 1857,
+    "timeWeek": 1185,
+    "timeMonth": 1147,
+    "timeYear": 1324,
     "dailyMinutesDown": {
-      "2026-09-28": 0
+      "2026-09-28": 0,
+      "2026-10-26": 0
     }
   }
 ]
